@@ -85,3 +85,17 @@ h1 {
   font-size: 18px;
   padding: 10px 200px 5px 10px;
 }
+
+.card-title {
+  font-family: var(--font-one);
+  font-weight: 800;
+
+  font-size: 18px;
+}
+
+.card-title {
+  font-family: var(--font-one);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 18px;
+}

@@ -12,4 +12,15 @@ nav a {
   text-transform: uppercase;
   font-size: 25px;
   letter-spacing: 1.5px;
+  font-family: var(--font-one);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.btn {
+  font-family: var(--font-one);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 18px;
 }

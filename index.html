@@ -55,7 +55,7 @@
               <a class="nav-link" href="#experiance">Experiance</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Interests</a>
+              <a class="nav-link" href="#specialties">Specialties</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -72,7 +72,9 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <li><a class="dropdown-item" href="#">Programing</a></li>
+                <li>
+                  <a class="dropdown-item" href="#projects">Programing</a>
+                </li>
                 <li><a class="dropdown-item" href="#">Deisgn</a></li>
                 <li>
                   <a class="dropdown-item" href="#">Photography</a>
@@ -89,7 +91,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#spaceCon">Contact</a>
             </li>
           </ul>
         </div>
@@ -124,7 +126,7 @@
         <section>
           <h1>Experiance</h1>
 
-          <p class="experMe">
+          <p class="experMe" id="experiance">
             I bring over 20 years of professional experience to problem solving
             within healthcare & life sciences field. I often work with small
             teams and fullfill a wide range of rolls such as designer,
@@ -138,14 +140,14 @@
         <section>
           <h1>Specialties</h1>
 
-          <p class="specialMe">
+          <p class="specialMe" id="specialties">
             Web development, Graphic Design, Innovation, Co-Design Thinking,
             Video, AR/VR, Website and App Design, Photography, Illustration
           </p>
         </section>
       </div>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4" id="experiance">
+      <div class="row row-cols-1 row-cols-md-3 g-4" id="projects">
         <div class="col">
           <div class="card h-100 shadow mb-5 rounded">
             <img
@@ -166,14 +168,14 @@
                 >View the project</a
               >
             </div>
-            <div class="card-footer">
+            <!-- <div class="card-footer">
               <a
                 href="https://qosburn.github.io/StudioGhibliAPI/"
                 target="_blank"
                 class="btn btn-primary"
                 >View the project</a
-              ><!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-            </div>
+              ><small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
           </div>
         </div>
         <!-- endCardSection -->
@@ -197,9 +199,9 @@
                 >View the project</a
               >
             </div>
-            <div class="card-footer">
+            <!-- <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- endCardSection -->
@@ -221,9 +223,9 @@
                 >View the project</a
               >
             </div>
-            <div class="card-footer">
+            <!-- <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- endCardSection -->
@@ -240,9 +242,9 @@
                 >View the project</a
               >
             </div>
-            <div class="card-footer">
+            <!-- <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- endCardSection -->
@@ -266,9 +268,9 @@
                 >View the project</a
               >
             </div>
-            <div class="card-footer">
+            <!-- <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -294,17 +296,32 @@
                 >View the project</a
               >
             </div>
-            <div class="card-footer">
+            <!-- <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- endCardSection -->
       </div>
       <!----start spacerSecton-->
       <div class="spacerDiv" id="spacDiv">
-        <img src="./assets/fIconsCpen.png" class="footerImg" alt="" />
+        <p>.</p>
       </div>
+      <!-- end spacer Section -->
+      <div class="spaceResume" id="spaceRes">
+        <h1>Resume</h1>
+
+        <p class="specialMe" id="specialties">
+          Interested in knowing more about me?
+        </p>
+        <a
+          href="https://codepen.io/qtime123/details/vYxJoLb"
+          target="_blank"
+          class="btn btn-primary"
+          >Download Resume</a
+        >
+      </div>
+
       <!-- start contact-->
       <div class="spaceContact" id="spaceCon">
         <h1>Contact Me</h1>
@@ -354,7 +371,7 @@
             </div>
             <div class="text-center">
               <div id="success"></div>
-              <button type="submit" class="btn btn-lg btn-black">
+              <button type="submit" class="btn btn-primary">
                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                 Send Message
               </button>
