@@ -1,11 +1,18 @@
 body {
   background-color: var(--whit);
 }
+/* original one */
+/* section:nth-child(3) {
+  background: purple;
+  color: white;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 5rem 5%;
+} */
 
 section:nth-child(3) {
   background: purple;
   color: white;
-  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(1% 20%, 100% 1%, 100% 80%, 1% 100%);
   padding: 5rem 5%;
 }
 section:nth-child(4) {
@@ -13,4 +20,24 @@ section:nth-child(4) {
   color: white;
   clip-path: polygon(0 10%, 100% 22%, 100% 40%, 0 100%);
   padding: 5rem 5%;
+}
+.footerImg {
+  opacity: 1;
+  width: 40px;
+  margin: 30px 35px 30px 50px;
+  filter: hue-rotate(330deg);
+}
+.footer {
+  background: rgb(175, 108, 175);
+  color: white;
+  clip-path: polygon(0 10%, 100% 22%, 100% 40%, 0 100%);
+  padding: 5rem 5%;
+}
+.spacerDiv {
+  background: purple;
+  color: white;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 5rem 5%;
+  margin: 30px 30px 30px 30px;
+  /* height: 20px; */
 }

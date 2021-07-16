@@ -1,7 +1,7 @@
 .jumbotron {
   background: url(../assets/IMG_2093.PNG) fixed;
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
   color: var(--whit);
   z-index: 1;
 }
