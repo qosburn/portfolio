@@ -12,9 +12,10 @@
       crossorigin="anonymous"
     />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <!-- Close Fonts -->
@@ -100,31 +101,30 @@
 
       <div class="intro" id="intro">
         <section class="jumbotron">
-          <hi>Happy Joy JOy2222</hi>
+          <h1>a</h1>
 
-          <p class="jumbo-para">Happyside<br /></p>
+          <p class="jumbo-para">theHappyside<br /></p>
         </section>
 
         <section>
-          <hi>Howdy</hi>
-          <hi>My name is Quinn Osburn</hi>
+          <h1>Hi my name is Quinn Osburn</h1>
 
-          <p>
-            I am graphic designer skilled in innovation principles, a lover of
-            emerging experiences, and an instigator of great things. I have
-            spent the majority of my career working in R&D/innovation spaces
-            uncovering user centered problems and creating solutions for them. I
-            approache all problems with a deep-rooted design thinking process
-            that is made visible in information design, branding, art direction,
-            and development of core creative concepts for physical and
-            electronic media.
+          <p class="introMe">
+            I am graphic designer and developer skilled in innovation
+            principles, a lover of emerging experiences, and an instigator of
+            great things. I have spent the majority of my career working in
+            R&D/innovation spaces uncovering user centered problems and creating
+            solutions for them. I approach all problems with a deep-rooted
+            design thinking process that is made visible in information design,
+            branding, art direction, and development of core creative concepts
+            for physical and electronic media.
             <br />
           </p>
         </section>
         <section>
-          <hi>Experiance</hi>
+          <h1>Experiance</h1>
 
-          <p>
+          <p class="experMe">
             I bring over 20 years of professional experience to problem solving
             within healthcare & life sciences field. I often work with small
             teams and fullfill a wide range of rolls such as designer,
@@ -136,9 +136,9 @@
           </p>
         </section>
         <section>
-          <hi>Specialties:</hi>
+          <h1>Specialties</h1>
 
-          <p>
+          <p class="specialMe">
             Web development, Graphic Design, Innovation, Co-Design Thinking,
             Video, AR/VR, Website and App Design, Photography, Illustration
           </p>
@@ -301,61 +301,66 @@
         </div>
         <!-- endCardSection -->
       </div>
+      <!----start spacerSecton-->
       <div class="spacerDiv" id="spacDiv">
         <img src="./assets/fIconsCpen.png" class="footerImg" alt="" />
       </div>
-      <div class="contact" id="contactMe">
-        <form action="https://formspree.io/f/mnqlbzzp" method="POST">
-          <div class="control-group">
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Your Name"
-                id="name"
-                required
-                data-validation-required-message="Please enter your name"
-                name="name"
-              />
-              <p class="help-block text-danger"></p>
+      <!-- start contact-->
+      <div class="spaceContact" id="spaceCon">
+        <h1>Contact Me</h1>
+        <div class="contact" id="contactMe">
+          <form action="https://formspree.io/f/mnqlbzzp" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  id="name"
+                  required
+                  data-validation-required-message="Please enter your name"
+                  name="name"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
-          <div class="forms">
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Your Email"
-                id="email"
-                required
-                data-validation-required-message="Please enter your email"
-                name="_replyto"
-              />
-              <p class="help-block text-danger"></p>
+            <div class="forms">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  id="email"
+                  required
+                  data-validation-required-message="Please enter your email"
+                  name="_replyto"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group">
-              <textarea
-                class="form-control"
-                rows="7"
-                placeholder="Your Message"
-                id="message"
-                required
-                data-validation-required-message="Please leave a message"
-                name="message"
-              ></textarea>
-              <p class="help-block text-danger"></p>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Your Message"
+                  id="message"
+                  required
+                  data-validation-required-message="Please leave a message"
+                  name="message"
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
-          <div class="text-center">
-            <div id="success"></div>
-            <button type="submit" class="btn btn-lg btn-black">
-              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-              Send Message
-            </button>
-          </div>
-        </form>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
       <div class="footer" id="footerMe">
         <a href="https://codepen.io/qtime123" target="_blank"

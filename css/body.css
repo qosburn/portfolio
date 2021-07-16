@@ -18,14 +18,24 @@ section:nth-child(3) {
 section:nth-child(4) {
   background: rgb(175, 108, 175);
   color: white;
-  clip-path: polygon(0 10%, 100% 22%, 100% 40%, 0 100%);
+  clip-path: polygon(1% 20%, 100% 1%, 100% 80%, 1% 100%);
   padding: 5rem 5%;
 }
-.footerImg {
-  opacity: 1;
-  width: 40px;
-  margin: 30px 35px 30px 50px;
-  filter: hue-rotate(330deg);
+.spacerDiv {
+  background: purple;
+  color: white;
+  clip-path: polygon(1% 20%, 100% 1%, 100% 80%, 1% 100%);
+  padding: 5rem 5%;
+  margin: 30px 30px 30px 30px;
+  /* height: 20px; */
+}
+.spaceContact {
+  background: purple;
+  color: white;
+  clip-path: polygon(1% 20%, 100% 1%, 100% 80%, 1% 100%);
+  padding: 5rem 5%;
+  /* margin: 30px 30px 30px 30px; */
+  /* height: 20px; */
 }
 .footer {
   background: rgb(175, 108, 175);
@@ -33,11 +43,45 @@ section:nth-child(4) {
   clip-path: polygon(0 10%, 100% 22%, 100% 40%, 0 100%);
   padding: 5rem 5%;
 }
-.spacerDiv {
-  background: purple;
-  color: white;
-  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-  padding: 5rem 5%;
-  margin: 30px 30px 30px 30px;
-  /* height: 20px; */
+
+.footerImg {
+  opacity: 1;
+  width: 40px;
+  margin: 30px 35px 30px 50px;
+  filter: hue-rotate(330deg);
+}
+
+h1 {
+  font-family: var(--font-one);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 72px;
+}
+.jumbo-para {
+  font-family: var(--font-one);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 72px;
+}
+.introMe {
+  font-family: var(--font-two);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  padding: 10px 200px 5px 70px;
+}
+
+.experMe {
+  font-family: var(--font-two);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  padding: 10px 200px 5px 10px;
+}
+.specialMe {
+  font-family: var(--font-two);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  padding: 10px 200px 5px 10px;
 }
