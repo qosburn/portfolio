@@ -97,50 +97,59 @@
     <div class="container">
       <!---Close NavBar-->
       <!-- Content here -->
-      <section class="jumbotron">
-        <hi>Happy Joy JOy</hi>
 
-        <p class="jumbo-para">Happy<br /></p>
-      </section>
-      <section>
-        <hi>Happy Joy JOy</hi>
-
-        <p>Happy2<br /></p>
-      </section>
-      <section>
-        <hi>Happy Joy JOy</hi>
-
-        <p>Happy3<br /></p>
-      </section>
-      <section>
-        <hi>Happy Joy JOy</hi>
-
-        <p>Happy4<br /></p>
-      </section>
       <div class="intro" id="intro">
-        Quinn Osburn is a graphic designer skilled in innovation principles, a
-        lover of emerging experiences, and an instigator of great things. He has
-        spent the majority of his career working in R&D/innovation spaces
-        uncovering user centered problems and creating solutions for them. Quinn
-        approaches all problems with a deep-rooted design thinking process that
-        is made visible in information design, branding, art direction, and
-        development of core creative concepts for physical and electronic media.
-        He is an award-winning designer, photographer, videographer, information
-        architect and developer. He brings over 20 years of professional
-        experience to problem solving within healthcare & life sciences field.
-        Over his career he has taught design at IU (Herron School of Art) and
-        had the opportunity to work with Apple, Frog, NUVO, Lilly, Saint
-        Vincent’s, Roche, Junior Achievement, IDEO, IMA, Sallie Mae, Status
-        Solutions, Johnson & Johnson, and IU Health. Specialties: Graphic
-        Design, Innovation, Co-Design Thinking, Video, AR/VR, Website and App
-        Design, Photography, Illustration
+        <section class="jumbotron">
+          <hi>Happy Joy JOy2222</hi>
+
+          <p class="jumbo-para">Happyside<br /></p>
+        </section>
+
+        <section>
+          <hi>Howdy</hi>
+          <hi>My name is Quinn Osburn</hi>
+
+          <p>
+            I am graphic designer skilled in innovation principles, a lover of
+            emerging experiences, and an instigator of great things. I have
+            spent the majority of my career working in R&D/innovation spaces
+            uncovering user centered problems and creating solutions for them. I
+            approache all problems with a deep-rooted design thinking process
+            that is made visible in information design, branding, art direction,
+            and development of core creative concepts for physical and
+            electronic media.
+            <br />
+          </p>
+        </section>
+        <section>
+          <hi>Experiance</hi>
+
+          <p>
+            I bring over 20 years of professional experience to problem solving
+            within healthcare & life sciences field. I often work with small
+            teams and fullfill a wide range of rolls such as designer,
+            developer, photographer, videographer, and information architect.
+            Over my career I have taught design at IU (Herron School of Art) and
+            had the opportunity to work with Apple, Frog, NUVO, Lilly, Saint
+            Vincent’s, Roche, Junior Achievement, IDEO, IMA, Sallie Mae, Status
+            Solutions, Johnson & Johnson, and IU Health.<br />
+          </p>
+        </section>
+        <section>
+          <hi>Specialties:</hi>
+
+          <p>
+            Web development, Graphic Design, Innovation, Co-Design Thinking,
+            Video, AR/VR, Website and App Design, Photography, Illustration
+          </p>
+        </section>
       </div>
 
       <div class="row row-cols-1 row-cols-md-3 g-4" id="experiance">
         <div class="col">
           <div class="card h-100 shadow mb-5 rounded">
             <img
-              src="./assets/NasaSketches.png"
+              src="./assets/myTotoroSmile.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -160,7 +169,7 @@
         <div class="col">
           <div class="card h-100 shadow mb-5 rounded">
             <img
-              src="./assets/NasaSketches.png"
+              src="./assets/3C79850F-1DD8-B71B-0BC4A88BA85DE6B0.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -187,8 +196,10 @@
             <div class="card-body">
               <h5 class="card-title">Static Site</h5>
               <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
+                This is one of our first sites. The challenge was to reproduce
+                two scrolls worth of an existing website. The example uesd is
+                k.com When compaired you should see there is very little
+                diffence in the placement of content and style.
               </p>
             </div>
             <div class="card-footer">
@@ -206,10 +217,7 @@
             />
             <div class="card-body">
               <h5 class="card-title">CSS Objects</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
+              <p class="card-text">A little jellyfish designed all in CSS</p>
             </div>
             <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
@@ -259,6 +267,62 @@
           </div>
         </div>
         <!-- endCardSection -->
+      </div>
+      <div class="contact" id="contactMe">
+        <form action="https://formspree.io/f/mnqlbzzp" method="POST">
+          <div class="control-group">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Name"
+                id="name"
+                required
+                data-validation-required-message="Please enter your name"
+                name="name"
+              />
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="forms">
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+                id="email"
+                required
+                data-validation-required-message="Please enter your email"
+                name="_replyto"
+              />
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                rows="7"
+                placeholder="Your Message"
+                id="message"
+                required
+                data-validation-required-message="Please leave a message"
+                name="message"
+              ></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-lg btn-black">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="footer" id="footerMe">
+        Linked-in Github Copyright © 2021 Quinn Osburn
       </div>
     </div>
     <!--Challenge-->
