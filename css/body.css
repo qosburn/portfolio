@@ -12,13 +12,13 @@ body {
 section:nth-child(3) {
   background: #3d5a80;
   color: white;
-  clip-path: polygon(1% 20%, 100% 1%, 100% 80%, 1% 100%);
+  clip-path: polygon(1% 10%, 100% 1%, 100% 80%, 1% 100%);
   padding: 5rem 5%;
 }
 section:nth-child(4) {
   background: #98c1d9;
   color: white;
-  clip-path: polygon(1% 20%, 100% 1%, 100% 80%, 1% 100%);
+  clip-path: polygon(1% 20%, 100% 1%, 100% 80%, 1% 90%);
   padding: 5rem 5%;
 }
 .spacerDiv {
@@ -32,7 +32,7 @@ section:nth-child(4) {
 .spaceContact {
   background: #ee6c4d;
   color: white;
-  clip-path: polygon(0% 20%, 100% 0%, 100% 80%, 0% 100%);
+  clip-path: polygon(0% 10%, 100% 0%, 100% 80%, 0% 100%);
   padding: 5rem 5%;
   /* margin: 30px 30px 30px 30px; */
   /* height: 20px; */
