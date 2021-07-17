@@ -2,8 +2,8 @@
   position: fixed;
   width: 100%;
   /* overflow: hidden;
- 
-  z-index: 10;*/
+ */
+  z-index: 10;
 }
 .navbar-nav {
   margin-left: 100px;
